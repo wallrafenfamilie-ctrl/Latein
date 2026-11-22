@@ -1,11 +1,4 @@
-LATIN QUEST 1.0.2 – LENI EDITION
-
-1. In der installierten App zuerst ein JSON-Backup exportieren.
-2. Alle Dateien aus diesem ZIP in das GitHub-Repository Latein hochladen und vorhandene ersetzen.
-3. Commit changes; GitHub Pages veröffentlicht das Update.
-4. App neu starten; ggf. nach kurzer Wartezeit erneut laden.
-5. Spielstand (XP, Vokabel-Fortschritt) bleibt bei unveränderter GitHub-Pages-Adresse im Browser gespeichert. Backup zusätzlich aufbewahren.
-
-NEU: Eigener Stammformen-Test mit drei Eingabefeldern, Ergebnisprüfung und eigenem Wiederholungsfortschritt. Stammformen werden im Vokabeltest nicht vor der Antwort gezeigt.
-
-WICHTIG: Nur eine kleine Auswahl der Lektionen 23–24 ist enthalten. Die übrigen Buchseiten sind noch nicht vollständig übertragen. Hinterlegte Stammformen sind als noch abzugleichen gekennzeichnet.
+1. In der bestehenden App Backup exportieren.
+2. Alle entpackten Dateien in GitHub Repository Latein im Stammverzeichnis hochladen, bestehende Dateien ersetzen.
+3. Commit changes.
+4. Nach GitHub Pages Deployment App neu starten; bei Cache-Problemen App vollständig schließen und erneut öffnen.
