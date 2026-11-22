@@ -6,6 +6,17 @@ window.LQ_CONTENT={
   [23,'obtinere','erhalten, festhalten'],[23,'confirmare','bestätigen'],[23,'se','sich'],[23,'praestare','sich auszeichnen; leisten'],[23,'habere','haben, halten'],[23,'noli','wolle nicht!'],[23,'sub','unter'],[23,'imperium','der Befehl; die Herrschaft'],[23,'libido','die Lust; der Drang'],[23,'velle','wollen'],[23,'flectere','biegen; wenden'],[23,'fidelis','treu'],[23,'imperare','befehlen'],[23,'fac','mach!'],[23,'copia','die Anzahl; die Menge'],[23,'praedicare','rühmen; lobend hervorheben'],[23,'confiteri','eingestehen'],[23,'philosophus','der Philosoph'],[23,'tantum ... quantum','so viel ... wie'],[23,'tempus','die Zeit'],
   [24,'proelium','der Kampf'],[24,'quem','wen?'],[24,'maximus','der größte'],[24,'imperator','der Kaiser; der Feldherr'],[24,'putare','glauben; meinen; für etwas halten'],[24,'fundere','zerstreuen; forttreiben'],[24,'causa','der Grund; die Ursache'],[24,'gens','der Volksstamm'],[24,'praeterea','außerdem'],[24,'duo','zwei'],[24,'tertius','der dritte'],[24,'copiae','die Truppen'],[24,'nominare','jemanden/etwas nennen'],[24,'vincere','siegen; besiegen'],[24,'scilicet','selbstverständlich; natürlich'],[24,'laetitia','die Freude'],[24,'intellegere','bemerken; einsehen; verstehen'],[24,'quoque','auch']
   ].map(([lesson,latin,de],i)=>({id:'pontes-'+lesson+'-'+i,lesson,latin,de})),
+  // Stammformen als separate Datenfelder. Allgemein bekannte Formen; Buchabgleich bleibt notwendig.
+  formsByLatin:{
+    'putare':{forms:'puto · putavi · putatum',checked:'Standardformen – Buchabgleich offen'},
+    'nominare':{forms:'nomino · nominavi · nominatum',checked:'Standardformen – Buchabgleich offen'},
+    'vincere':{forms:'vinco · vici · victum',checked:'Standardformen – Buchabgleich offen'},
+    'intellegere':{forms:'intellego · intellexi · intellectum',checked:'Standardformen – Buchabgleich offen'},
+    'habere':{forms:'habeo · habui · habitum',checked:'Standardformen – Buchabgleich offen'},
+    'imperare':{forms:'impero · imperavi · imperatum',checked:'Standardformen – Buchabgleich offen'},
+    'praedicare':{forms:'praedico · praedicavi · praedicatum',checked:'Standardformen – Buchabgleich offen'},
+    'quaerere':{forms:'quaero · quaesivi · quaesitum',checked:'Beispiel aus Lenis Rückmeldung'}
+  },
   translations:[
     {lesson:24,latin:'Hannibal Alexandrum maximum imperatorem putat.',answers:['Hannibal hält Alexander für den größten Feldherrn.','Hannibal hält Alexander für den größten Heerführer.'],explain:'putare mit doppeltem Akkusativ: Alexandrum (Person) und maximum imperatorem (Einordnung).'},
     {lesson:24,latin:'Hannibal Alexandrum maximum imperatorem nominat.',answers:['Hannibal nennt Alexander den größten Feldherrn.','Hannibal bezeichnet Alexander als den größten Feldherrn.'],explain:'nominare mit doppeltem Akkusativ: Wen nennt Hannibal wie?'},
